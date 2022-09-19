@@ -1,3 +1,10 @@
+CSV to HTML:
+sudo chmod +x csv_to_html.py
+sudo chmod  o+w /var/www/html
+./csv_to_html.py user_emails.csv /var/www/html/<html-filename>.html
+  
+
+
 Generate reports
 Now, we're going to practice creating a script, named ticky_check.py, that generates two different reports from this internal ticketing system log file i.e., syslog.log. This script will create the following reports:
 
